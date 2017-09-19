@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>uniMail</title>
+</head>
+<body>
+
+	<form>
+
+<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="taldass.ru">
+						<input type="hidden" name="admin_email" value="dmitry.lysak96@gmail.com">
+						<input type="hidden" name="form_subject" value="Форма">
+						<!-- END Hidden Required Fields -->
+						<input class="field" type="text" name="name" placeholder="Имя*" required>
+						<input class="field" type="email" name="email" placeholder="E-mail*" required>
+						<textarea class="field-message" name="message" rows="6">СООБЩЕНИЕ</textarea>
+						<p class="form-info">* - поля являются обязательными для заполнения!</p>
+						<button class="form-btn" type="submit">Отправить</button>
+
+	</form>
+	
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
